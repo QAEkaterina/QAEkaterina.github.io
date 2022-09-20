@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Невероятный заголовок 
+title: Невероятный заголовок
 email: borekaterina844@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -28,9 +28,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 domain: QAEkaterina.github.io
 url: "https://QAEkaterina.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: QAEkaterina
+lang: "ru-RU"
 
 # Build settings
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: QAEkaterina/minimal@v0.3.1
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
